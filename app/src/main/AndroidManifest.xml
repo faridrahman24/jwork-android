@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="AilsaSyaffaDynia.jwork_android">
+    package="faridmr.jwork_android">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -10,10 +10,13 @@
         android:label="jwork-android"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name="faridmr.jwork_android.LoginRequest"></activity>
-        <activity android:name="faridmr.jwork_android.RegisterRequest" />
+        android:theme="@style/Theme.Jworkandroid"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".MenuRequest"></activity>
         <activity android:name=".MainActivity" />
+        <activity android:name=".Recruiter" />
+        <activity android:name=".Job" />
+        <activity android:name=".Location" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".LoginActivity">
             <intent-filter>
