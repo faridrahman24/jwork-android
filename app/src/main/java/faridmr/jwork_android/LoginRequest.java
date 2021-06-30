@@ -17,7 +17,9 @@ public class LoginRequest extends StringRequest {
         params.put("email", email);
         params.put("password", password);
     }
+
     @Override
     protected Map<String, String> getParams() throws AuthFailureError {
         return params;
     }
+}
